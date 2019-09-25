@@ -1,0 +1,32 @@
+label {
+	color: black;
+	display: block;
+}
+input {
+	width: 300px;
+	display: block; 
+	border-radius: 5px;
+
+}
+
+fieldset  {
+	display: inline-block;
+}
+
+textarea {
+	border:5px solid red;
+}
+.red-textarea:focus {
+	background: yellow;
+	color: red;
+	border: 5px solid green;
+	/*border-color: green;*/
+}
+
+th, td{
+	border-style: solid;
+	border-width: 1px;
+	color: black;
+	width: 10em;
+	padding: 10px;
+}
